@@ -74,9 +74,9 @@ def main():
     net.to(device)
     loss_function = nn.CrossEntropyLoss()
     # pata = list(net.parameters())
-    optimizer = optim.Adam(net.parameters(), lr=0.0002)
+    optimizer = optim.Adam(net.parameters(), lr=2e-4)
 
-    epochs = 10
+    epochs = 100
     save_path = './AlexNet.pth'
     best_acc = 0.0
     train_steps = len(train_loader)
@@ -84,7 +84,8 @@ def main():
         # train
         net.train()
         running_loss = 0.0
-        train_bar = tqdm(train_loader)
+        # train_bar = tqdm(train_loader)
+        train_bar = train_loader
         for step, data in enumerate(train_bar):
             images, labels = data
             optimizer.zero_grad()
@@ -96,15 +97,17 @@ def main():
             # print statistics
             running_loss += loss.item()
 
-            train_bar.desc = "train epoch[{}/{}] loss:{:.3f}".format(epoch + 1,
-                                                                     epochs,
-                                                                     loss)
-
+            # train_bar.desc = "train epoch[{}/{}] loss:{:.3f}".format(epoch + 1,
+            #                                                          epochs,
+            #                                                          loss)
+            if step % 50 == 0:
+                print('epoch : {}, idx: {}, loss: {}'.format(epoch, step, loss))
         # validate
         net.eval()
         acc = 0.0  # accumulate accurate number / epoch
         with torch.no_grad():
-            val_bar = tqdm(validate_loader)
+            # val_bar = tqdm(validate_loader)
+            val_bar = validate_loader
             for val_data in val_bar:
                 val_images, val_labels = val_data
                 outputs = net(val_images.to(device))
