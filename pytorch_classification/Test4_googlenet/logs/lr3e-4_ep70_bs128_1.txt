@@ -1,0 +1,23 @@
+using cuda:0 device.
+Using 8 dataloader workers every process
+using 3306 images for training, 364 images for validation.
+Traceback (most recent call last):
+  File "train.py", line 134, in <module>
+    main()
+  File "train.py", line 92, in main
+    logits, aux_logits2, aux_logits1 = net(images.to(device))
+  File "/opt/conda/lib/python3.6/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/workspace/deep-learning-for-image-processing/pytorch_classification/Test4_googlenet/model.py", line 44, in forward
+    x = self.conv1(x)
+  File "/opt/conda/lib/python3.6/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/workspace/deep-learning-for-image-processing/pytorch_classification/Test4_googlenet/model.py", line 170, in forward
+    x = self.conv(x)
+  File "/opt/conda/lib/python3.6/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.6/site-packages/torch/nn/modules/conv.py", line 390, in forward
+    return self._conv_forward(input, self.weight)
+  File "/opt/conda/lib/python3.6/site-packages/torch/nn/modules/conv.py", line 387, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Unable to find a valid cuDNN algorithm to run convolution

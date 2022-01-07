@@ -1,0 +1,75 @@
+using cuda:1 device.
+Using 8 dataloader workers every process
+using 3306 images for training, 364 images for validation.
+epoch : 0, idx: 0, loss: 1.6104310750961304
+epoch : 0, idx: 50, loss: 1.6026277542114258
+epoch : 0, idx: 100, loss: 1.5887082815170288
+---------------------------[epoch 1] train_loss: 1.644  val_accuracy: 0.217
+epoch : 1, idx: 0, loss: 1.603748083114624
+epoch : 1, idx: 50, loss: 1.5949392318725586
+epoch : 1, idx: 100, loss: 1.641809105873108
+---------------------------[epoch 2] train_loss: 1.602  val_accuracy: 0.245
+epoch : 2, idx: 0, loss: 1.6168406009674072
+epoch : 2, idx: 50, loss: 1.6020418405532837
+epoch : 2, idx: 100, loss: 1.5846270322799683
+---------------------------[epoch 3] train_loss: 1.602  val_accuracy: 0.245
+epoch : 3, idx: 0, loss: 1.5578718185424805
+epoch : 3, idx: 50, loss: 1.5747883319854736
+epoch : 3, idx: 100, loss: 1.6188470125198364
+---------------------------[epoch 4] train_loss: 1.601  val_accuracy: 0.245
+epoch : 4, idx: 0, loss: 1.546747088432312
+epoch : 4, idx: 50, loss: 1.577794075012207
+epoch : 4, idx: 100, loss: 1.616781234741211
+---------------------------[epoch 5] train_loss: 1.601  val_accuracy: 0.245
+epoch : 5, idx: 0, loss: 1.596348762512207
+epoch : 5, idx: 50, loss: 1.6135129928588867
+epoch : 5, idx: 100, loss: 1.5961239337921143
+---------------------------[epoch 6] train_loss: 1.601  val_accuracy: 0.245
+epoch : 6, idx: 0, loss: 1.5888186693191528
+epoch : 6, idx: 50, loss: 1.5900808572769165
+epoch : 6, idx: 100, loss: 1.5921159982681274
+---------------------------[epoch 7] train_loss: 1.600  val_accuracy: 0.245
+epoch : 7, idx: 0, loss: 1.6503239870071411
+epoch : 7, idx: 50, loss: 1.6289145946502686
+epoch : 7, idx: 100, loss: 1.6605839729309082
+---------------------------[epoch 8] train_loss: 1.601  val_accuracy: 0.245
+epoch : 8, idx: 0, loss: 1.5926798582077026
+epoch : 8, idx: 50, loss: 1.6124496459960938
+epoch : 8, idx: 100, loss: 1.5761055946350098
+---------------------------[epoch 9] train_loss: 1.600  val_accuracy: 0.245
+epoch : 9, idx: 0, loss: 1.588439702987671
+epoch : 9, idx: 50, loss: 1.5518109798431396
+epoch : 9, idx: 100, loss: 1.6228916645050049
+---------------------------[epoch 10] train_loss: 1.601  val_accuracy: 0.245
+epoch : 10, idx: 0, loss: 1.5996392965316772
+epoch : 10, idx: 50, loss: 1.5764259099960327
+epoch : 10, idx: 100, loss: 1.5938937664031982
+---------------------------[epoch 11] train_loss: 1.601  val_accuracy: 0.245
+epoch : 11, idx: 0, loss: 1.5892900228500366
+epoch : 11, idx: 50, loss: 1.5755976438522339
+epoch : 11, idx: 100, loss: 1.5410373210906982
+---------------------------[epoch 12] train_loss: 1.602  val_accuracy: 0.245
+epoch : 12, idx: 0, loss: 1.5973031520843506
+epoch : 12, idx: 50, loss: 1.6405164003372192
+epoch : 12, idx: 100, loss: 1.619409203529358
+---------------------------[epoch 13] train_loss: 1.602  val_accuracy: 0.245
+epoch : 13, idx: 0, loss: 1.6268386840820312
+epoch : 13, idx: 50, loss: 1.5990129709243774
+epoch : 13, idx: 100, loss: 1.6508177518844604
+---------------------------[epoch 14] train_loss: 1.601  val_accuracy: 0.245
+epoch : 14, idx: 0, loss: 1.5781571865081787
+epoch : 14, idx: 50, loss: 1.6204890012741089
+epoch : 14, idx: 100, loss: 1.5363801717758179
+---------------------------[epoch 15] train_loss: 1.602  val_accuracy: 0.245
+epoch : 15, idx: 0, loss: 1.6117901802062988
+epoch : 15, idx: 50, loss: 1.6123913526535034
+epoch : 15, idx: 100, loss: 1.6006927490234375
+---------------------------[epoch 16] train_loss: 1.601  val_accuracy: 0.245
+epoch : 16, idx: 0, loss: 1.6363623142242432
+epoch : 16, idx: 50, loss: 1.6011494398117065
+epoch : 16, idx: 100, loss: 1.57957124710083
+---------------------------[epoch 17] train_loss: 1.601  val_accuracy: 0.245
+epoch : 17, idx: 0, loss: 1.6089391708374023
+epoch : 17, idx: 50, loss: 1.585795521736145
+epoch : 17, idx: 100, loss: 1.56881582736969
+---------------------------[epoch 18] train_loss: 1.600  val_accuracy: 0.245
