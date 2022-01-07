@@ -6,6 +6,7 @@
 1）介绍网络的结构与创新点  
 2）使用Pytorch进行网络的搭建与训练  
 3）使用Tensorflow（内部的keras模块）进行网络的搭建与训练 
+* 课程中所有PPT都放在`course_ppt`文件夹下，需要的自行下载。
 
 
 ## 教程目录，点击跳转相应视频（后期会根据学习内容增加）
@@ -19,17 +20,17 @@
     * [AlexNet网络讲解](https://www.bilibili.com/video/BV1p7411T7Pc)
     * [Pytorch搭建AlexNet](https://www.bilibili.com/video/BV1W7411T7qc)
     * [Tensorflow2搭建Alexnet](https://www.bilibili.com/video/BV1s7411T7vs)
-  
+
   * VggNet（已完成）
     * [VggNet网络讲解](https://www.bilibili.com/video/BV1q7411T7Y6)
     * [Pytorch搭建VGG网络](https://www.bilibili.com/video/BV1i7411T7ZN)
     * [Tensorflow2搭建VGG网络](https://www.bilibili.com/video/BV1q7411T76b)
-  
+
   * GoogLeNet（已完成）
     * [GoogLeNet网络讲解](https://www.bilibili.com/video/BV1z7411T7ie)
     * [Pytorch搭建GoogLeNet网络](https://www.bilibili.com/video/BV1r7411T7M5)
     * [Tensorflow2搭建GoogLeNet网络](https://www.bilibili.com/video/BV1a7411T7Ht)
-  
+
   * ResNet（已完成）
     * [ResNet网络讲解](https://www.bilibili.com/video/BV1T7411T7wa)
     * [Pytorch搭建ResNet网络](https://www.bilibili.com/video/BV14E411H7Uw)
@@ -38,7 +39,7 @@
   * ResNeXt (已完成)
     * [ResNeXt网络讲解](https://www.bilibili.com/video/BV1Ap4y1p71v/)
     * [Pytorch搭建ResNeXt网络](https://www.bilibili.com/video/BV1rX4y1N7tE)
-  
+
   * MobileNet_v1_v2（已完成）
     * [MobileNet_v1_v2网络讲解](https://www.bilibili.com/video/BV1yE411p7L7)
     * [Pytorch搭建MobileNetV2网络](https://www.bilibili.com/video/BV1qE411T7qZ)
@@ -48,7 +49,7 @@
     * [MobileNet_v3网络讲解](https://www.bilibili.com/video/BV1GK4y1p7uE)
     * [Pytorch搭建MobileNetV3网络](https://www.bilibili.com/video/BV1zT4y1P7pd)
     * [Tensorflow2搭建MobileNetV3网络](https://www.bilibili.com/video/BV1KA411g7wX)
-  
+
   * ShuffleNet_v1_v2 (已完成)
     * [ShuffleNet_v1_v2网络讲解](https://www.bilibili.com/video/BV15y4y1Y7SY)
     * [使用Pytorch搭建ShuffleNetv2](https://www.bilibili.com/video/BV1dh411r76X)
@@ -75,29 +76,38 @@
     * [使用Pytorch搭建Swin Transformer](https://b23.tv/vZnpJf)
     * [使用Tensorflow2搭建Swin Transformer](https://b23.tv/UHLMSF)
 
-* 目标检测篇
+* 目标检测
   * Faster-RCNN/FPN（已完成）
     * [Faster-RCNN网络讲解](https://www.bilibili.com/video/BV1af4y1m7iL)
     * [FPN网络讲解](https://b23.tv/Qhn6xA)
     * [Faster-RCNN源码解析(Pytorch)](https://www.bilibili.com/video/BV1of4y1m7nj)
-  
+
   * SSD/RetinaNet (已完成)
     * [SSD网络讲解](https://www.bilibili.com/video/BV1fT4y1L7Gi)
     * [RetinaNet网络讲解](https://b23.tv/ZYCfd2)
     * [SSD源码解析(Pytorch)](https://www.bilibili.com/video/BV1vK411H771)
-  
-  * YOLOv3 SPP (进行中)
+
+  * YOLOv3 SPP (已完成)
     * [YOLO系列网络讲解](https://www.bilibili.com/video/BV1yi4y1g7ro)
     * [YOLOv3 SPP源码解析(Pytorch版)](https://www.bilibili.com/video/BV1t54y1C7ra)
 
 * 语义分割 
   * FCN (已完成)
-    * [FCN网络详解](https://www.bilibili.com/video/BV1J3411C7zd)
+    * [FCN网络讲解](https://www.bilibili.com/video/BV1J3411C7zd)
     * [FCN源码解析(Pytorch版)](https://www.bilibili.com/video/BV19q4y1971Q)
 
-  * DeepLabV3 (规划中)
-    * DeepLabV3网络详解
-    * DeepLabV3源码解析(Pytorch版)
+  * DeepLabV3 (已完成)
+    * [DeepLabV1网络讲解](https://www.bilibili.com/video/BV1SU4y1N7Ao)
+	* [DeepLabV2网络讲解](https://www.bilibili.com/video/BV1gP4y1G7TC)
+    * [DeepLabV3网络讲解](https://www.bilibili.com/video/BV1Jb4y1q7j7)
+    * [DeepLabV3源码解析(Pytorch版)](https://www.bilibili.com/video/BV1TD4y1c7Wx)
+
+  * LR-ASPP (已完成)
+    * [LR-ASPP网络讲解](https://www.bilibili.com/video/BV1LS4y1M76E)
+    * [LR-ASPP源码解析(Pytorch版)](https://www.bilibili.com/video/bv13D4y1F7ML)
+  
+  * UNet (准备中)
+    * [UNet网络讲解](https://www.bilibili.com/video/BV1Vq4y127fB/)
 
 **[更多相关视频请进入我的bilibili频道查看](https://space.bilibili.com/18161609/channel/index)**
 
@@ -111,7 +121,7 @@
 * torchvision 0.8.1 (pip package)
 * tensorflow 2.4.1 (pip package)
 
-[你可能遇到的问题](./summary_problem.md)
+欢迎大家关注下我的微信公众号（**阿喆学习小记**），平时会总结些相关学习博文。    
 
 如果有什么问题，也可以到我的CSDN中一起讨论。
 [https://blog.csdn.net/qq_37541097/article/details/103482003](https://blog.csdn.net/qq_37541097/article/details/103482003)
